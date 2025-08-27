@@ -1,3 +1,6 @@
 1_ShoeSize_from_age_price_sex/exploring_dataset.csv
 2_Credit_Card_Fraud_Detection/creditcard.csv
 3_Sentiment_analysis_on_movie_reviews/movie_reviews_sentiment_analysis.csv
+4_Customer_Segmentation_using_Clustering_Methods/Online_retail_data.csv
+
+venv/
