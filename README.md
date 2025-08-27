@@ -10,7 +10,7 @@ Each directory contains a specific case study, including the Jupyter Notebook (`
 
 Here is a summary of the projects included in this repository:
 
-1.  **[Predicting Shoe Size with Regression](./1_Predicting_Shoe_Size_with_Regression/)**
+1.  **[Predicting Shoe Size with Regression](./1_ShoeSize_from_age_price_sex/)**
     * **Objective:** To predict a person's shoe size based on their age, sex, and the price of their shoes.
     * **Techniques:** Simple Linear Regression, Multiple Linear Regression, and Polynomial Regression. This project also involved handling multicollinearity using Ridge (L2) and Lasso (L1) regularization.
     * **Outcome:** The Multiple Linear Regression and Ridge Regression models performed the best, achieving the lowest Mean Squared Error (MSE). This study highlights the process of model selection and regularization to handle common data issues.
@@ -20,12 +20,12 @@ Here is a summary of the projects included in this repository:
     * **Techniques:** This project focuses heavily on handling class imbalance using various resampling techniques, including Random Under-Sampling (RUS), Random Over-Sampling (ROS), SMOTE, and Tomek Links. Logistic Regression and K-Nearest Neighbors (KNN) models were evaluated.
     * **Outcome:** The KNN model trained on data cleaned with Tomek Links provided the best balance between precision and recall, achieving the highest F1-Score. This demonstrates a deep understanding of evaluation metrics and strategies for imbalanced classification.
 
-3.  **[Sentiment Analysis on Movie Reviews](./3_Sentiment_Analysis_on_Movie_Reviews/)**
+3.  **[Sentiment Analysis on Movie Reviews](./3_Sentiment_analysis_on_movie_reviews/)**
     * **Objective:** To classify movie reviews as either 'positive' or 'negative'.
     * **Techniques:** Text preprocessing (stopword removal, tokenization), feature extraction using TF-IDF, and classification using Naive Bayes and Support Vector Machines (SVM).
     * **Outcome:** All tested models achieved 100% accuracy on this dataset, demonstrating proficiency in handling and modeling text data for classification tasks.
 
-4.  **[Customer Segmentation with Clustering](./4_Customer_Segmentation_with_Clustering/)**
+4.  **[Customer Segmentation with Clustering](./4_Customer_Segmentation_using_Clustering_Methods/)**
     * **Objective:** To segment customers into distinct groups based on their purchasing behavior using RFM (Recency, Frequency, Monetary) analysis.
     * **Techniques:** This study uses RFM analysis for feature engineering. Several unsupervised clustering algorithms are applied and compared, including **K-Means** (with the Elbow Method), **Hierarchical Clustering**, **DBSCAN**, **Mean-Shift**, and **Gaussian Mixture Models (GMM)**. Cluster quality is evaluated using the **Silhouette Score**.
     * **Outcome:** **DBSCAN** provided the most effective segmentation with the highest Silhouette Score, successfully identifying three distinct customer groups and isolating outliers. This demonstrates an ability to compare different clustering models to find the most meaningful customer segments.
